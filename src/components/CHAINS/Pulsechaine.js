@@ -55,7 +55,7 @@ const Pulsechaine = () => {
                                             <div className="text-center font-extrabold text-lg text-white">
                                                 CA:
                                             </div>
-                                            <div className="bg-opacity-10 backdrop-blur-sm bg-gray-350 w-auto p-4 text-white rounded-[25px] m-3 text-center  ">
+                                            <div className="bg-opacity-10 backdrop-blur-sm bg-gray-350 w-auto p-4 text-white rounded-[25px] m-3 text-center sm:break-words ">
                                                 {item.ca}
                                             </div>
                                         </div>
@@ -77,7 +77,7 @@ const Pulsechaine = () => {
                     </div>
 
                     <div className=' xxs:px-0 px-5 mx-auto py-[38px] md:px-5 '>
-                        <div className='border rounded-[25px] flex justify-center items-center flex-col z-10 p-4  text-white px-4   relative '>
+                        <div className='border rounded-[25px] flex justify-center items-center flex-col z-10 p-4  text-white px-4   relative mx-4 '>
                             <img src='/img/Ellipse.png' className='absolute -z-10 object-cover inset-0 h-full w-full' />
                             <div className='flex justify-center items-center text-white px-4 xxs:px-0 w-full  '>
                                 <div className='flex justify-center items-center gap-10 lg:flex lg:flex-col '>
